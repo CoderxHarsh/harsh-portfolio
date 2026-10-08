@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harsh Pandey selected projects">
+  <title>Projects | Harsh Pandey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><nav class="nav container">
+  <a class="brand" href="index.html"><span class="brand-mark">HP</span><span>Harsh Pandey</span></a>
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <div class="nav-links"><a href="index.html">Home</a><a href="resume.html">Resume</a><a href="biodata.html">Bio-data</a><a class="active" href="projects.html">Projects</a><a href="contact.html">Contact</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button></div>
+</nav></header>
+
+<main class="container section">
+  <div class="page-title"><p class="eyebrow">Selected work</p><h1>Projects</h1><p>AI systems, automation workflows and software builds from experimentation through implementation.</p></div>
+  <div class="filter-bar"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="ai">AI / ML</button><button class="filter-btn" data-filter="agent">Agentic</button><button class="filter-btn" data-filter="web">Web</button><button class="filter-btn" data-filter="automation">Automation</button></div>
+
+  <section class="projects-grid">
+    <article class="project-card featured" data-category="ai agent">
+      <div class="project-index">01</div>
+      <div class="project-visual visual-ai"><span class="visual-label">AGENTIC HEALTHCARE</span><div class="pulse-line"></div><div class="node-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="visual-center">MULTI<br>AGENT</div></div>
+      <div class="project-content"><span class="project-type">AI / AGENTIC SYSTEMS</span><h2>Agentic AI for Healthcare</h2><p>Multi-agent system integrating medical and scheduling REST APIs for patient queries, appointment management and symptom triage, with memory, context management and safety fallbacks.</p><div class="tag-list"><span>Python</span><span>LangChain</span><span>REST APIs</span></div></div>
+    </article>
+
+    <article class="project-card" data-category="ai automation">
+      <div class="project-index">02</div>
+      <div class="project-visual visual-flow"><div class="flow-row"><span>FORM</span><b>→</b><span>LLM</span><b>→</b><span>CRM</span></div><div class="flow-row second"><span>EMAIL</span><b>↗</b><span>FOLLOW-UP</span></div></div>
+      <div class="project-content"><span class="project-type">AI AUTOMATION · 2026</span><h2>AI Admission Automation</h2><p>n8n workflow that processes student enquiries and produces personalized follow-up emails and CRM updates using Groq Llama 3.3 and structured JSON output.</p><div class="tag-list"><span>n8n</span><span>Groq</span><span>REST APIs</span></div></div>
+    </article>
+
+    <article class="project-card" data-category="ai agent">
+      <div class="project-index">03</div>
+      <div class="project-visual visual-rag"><div class="rag-stack"><span>QUERY</span><i>↓</i><span>RETRIEVE</span><i>↓</i><span>GENERATE</span></div><b>RAG</b></div>
+      <div class="project-content"><span class="project-type">HACKATHON · MAR 2026</span><h2>Digital Twin</h2><p>Built a context-aware Digital Twin under hackathon time constraints using retrieval-augmented generation and LangChain across multiple data sources.</p><div class="tag-list"><span>RAG</span><span>LangChain</span><span>Python</span></div></div>
+    </article>
+
+    <article class="project-card" data-category="web ai">
+      <div class="project-index">04</div>
+      <div class="project-visual visual-lens"><div class="lens-circle"><span>VISION</span></div><div class="api-lines"><i></i><i></i><i></i></div></div>
+      <div class="project-content"><span class="project-type">FULL STACK · 2024</span><h2>LensAI</h2><p>Co-founded and shipped an AI-powered visual analysis web app with Flask/PostgreSQL REST APIs, third-party vision APIs and a responsive UI.</p><div class="tag-list"><span>Flask</span><span>PostgreSQL</span><span>Vision APIs</span></div></div>
+    </article>
+
+    <article class="project-card" data-category="web">
+      <div class="project-index">05</div>
+      <div class="project-visual visual-notes"><div class="paper-lines"><i></i><i></i><i></i><i></i><i></i></div><span class="paper-tab">ALGO</span></div>
+      <div class="project-content"><span class="project-type">WEB TOOL</span><h2>Algorithm Visualizer</h2><p>Interactive visualizer for Kruskal’s and Prim’s MST algorithms plus Floyd-Warshall, including Union-Find with path compression.</p><div class="tag-list"><span>HTML/CSS</span><span>JavaScript</span><span>Algorithms</span></div></div>
+    </article>
+
+    <article class="project-card" data-category="web">
+      <div class="project-index">06</div>
+      <div class="project-visual visual-iot"><div class="iot-board"><span>ESP8266</span><div class="iot-screen">AQI<br><b>LIVE</b></div><span>Wi-Fi • LCD</span></div></div>
+      <div class="project-content"><span class="project-type">IOT SYSTEM</span><h2>Air Quality Monitoring</h2><p>Arduino/ESP8266 system with real-time LCD output and Wi-Fi telemetry for live pollution metrics.</p><div class="tag-list"><span>Arduino</span><span>ESP8266</span><span>Telemetry</span></div></div>
+    </article>
+  </section>
+</main>
+
+<footer class="footer"><div class="container footer-inner"><span>© 2026 Harsh Pandey</span><span>Project showcase</span></div></footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="script.js"></script>
+</body>
+</html>

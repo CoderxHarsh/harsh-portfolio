@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Harsh Pandey">
+  <title>Contact | Harsh Pandey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><nav class="nav container">
+  <a class="brand" href="index.html"><span class="brand-mark">HP</span><span>Harsh Pandey</span></a>
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <div class="nav-links"><a href="index.html">Home</a><a href="resume.html">Resume</a><a href="biodata.html">Bio-data</a><a href="projects.html">Projects</a><a class="active" href="contact.html">Contact</a><button class="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button></div>
+</nav></header>
+
+<main class="container section">
+  <div class="page-title"><p class="eyebrow">Get in touch</p><h1>Let’s build something.</h1><p>A front-end contact form with client-side validation. The email and social links below are the direct public contact points.</p></div>
+  <div class="contact-grid">
+    <section class="contact-info">
+      <div class="contact-card dark-card">
+        <span class="eyebrow light">CONTACT</span>
+        <h2>AI engineering, agentic systems, projects or just a good technical conversation.</h2>
+        <div class="contact-links">
+          <a href="mailto:hp534653@gmail.com"><span>Email</span><strong>hp534653@gmail.com ↗</strong></a>
+          <a href="tel:+919304457512"><span>Phone</span><strong>+91-9304457512 ↗</strong></a>
+          <a href="https://github.com/CoderxHarsh" target="_blank" rel="noreferrer"><span>GitHub</span><strong>github.com/CoderxHarsh ↗</strong></a>
+          <a href="https://www.linkedin.com/in/harsh-pandey-cakewalk/" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>linkedin.com/in/harsh-pandey-cakewalk ↗</strong></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form-wrap panel">
+      <div class="panel-heading"><h2>Send a message</h2><span>FORM</span></div>
+      <form id="contactForm" novalidate>
+        <div class="form-row"><label for="name">Name <small>required</small></label><input id="name" name="name" type="text" placeholder="Your name"><span class="field-error"></span></div>
+        <div class="form-row"><label for="email">Email <small>required</small></label><input id="email" name="email" type="email" placeholder="you@example.com"><span class="field-error"></span></div>
+        <div class="form-row"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="Internship / collaboration / hello"></div>
+        <div class="form-row"><label for="message">Message <small>required</small></label><textarea id="message" name="message" rows="6" placeholder="Write your message..."></textarea><span class="field-error"></span></div>
+        <button class="btn btn-primary full" type="submit">Validate message <span>→</span></button>
+        <div class="form-success" role="status" aria-live="polite">✓ Message validated successfully. This demo is front-end only.</div>
+      </form>
+    </section>
+  </div>
+</main>
+
+<footer class="footer"><div class="container footer-inner"><span>© 2026 Harsh Pandey</span><span>Contact page</span></div></footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="script.js"></script>
+</body>
+</html>
